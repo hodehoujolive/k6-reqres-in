@@ -23,7 +23,7 @@ This project is designed to test the performance of various endpoints of the [Re
 
 1. **Clone the Repository**:
    ```bash
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/hodehoujolive/k6-reqres-in.git)
+   git clone https://github.com/hodehoujolive/k6-reqres-in.git
    cd k6-reqres-in 
    ```
 
