@@ -38,6 +38,6 @@ k6 run user_management_tests.js
 ```
 
 ### Running Tests on Grafana Cloud
-Grafana Cloud provides real-time visualization and analysis for your K6 performance tests. Follow these steps to set up [Grafana Cloud](https://grafana.com/docs/k6/latest/results-output/real-time/cloud/)  and run your tests with cloud output.
+Grafana Cloud provides real-time visualization and analysis for your K6 performance tests. Follow the steps on [Grafana Cloud](https://grafana.com/docs/k6/latest/results-output/real-time/cloud/)  and run your tests with cloud output.
 ![Screenshot_1](https://github.com/hodehoujolive/k6-reqres-in/blob/main/Screenshot%202024-08-12%20at%2016.36.12.png)
 ![Screenshot_2](https://github.com/hodehoujolive/k6-reqres-in/blob/main/Screenshot%202024-08-12%20at%2016.36.43.png)
