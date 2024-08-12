@@ -6,8 +6,8 @@ import { createUserPayload, updateUserPayload } from './payloads.js';
 export let options = {
     stages: [
         { duration: '5', target: 1 },
-       // { duration: '1m', target: 10 },
-       // { duration: '30s', target: 0 },
+        { duration: '1m', target: 10 },
+        { duration: '30s', target: 0 },
     ],
 };
 

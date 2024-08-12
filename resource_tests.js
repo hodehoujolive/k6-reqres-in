@@ -40,9 +40,9 @@ function singleResource(resourceId) {
     //console.log('Single Resource Response:', res.body);
 }
 
-// Test Case 4: Single Resource Not Found
+// test case 4: single resource Not Found
 function singleResourceNotFound() {
-    const url = `${baseUrl}/unknown/9999`;  // Using an ID that doesn't exist
+    const url = `${baseUrl}/unknown/9999`;
 
     const res = http.get(url, { headers });
 
@@ -54,8 +54,7 @@ function singleResourceNotFound() {
 }
 
 export default function () {
-    // Execute the test cases
     listResources();
-    singleResource(2); // Example with a known existing resource ID
+    singleResource(2);
     singleResourceNotFound();
 }
