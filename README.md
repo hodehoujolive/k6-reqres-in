@@ -9,6 +9,7 @@ This project is designed to test the performance of various endpoints of the [Re
 ```
 ├── auth_tests.js        # Contains test cases
 ├── user_management_tests.js        # Contains test cases
+├── resource_tests.js        # Contains test cases
 ├── config.js            # Configuration file 
 ├── payloads.js          # Payloads file
 └── README.md            # Documentation
