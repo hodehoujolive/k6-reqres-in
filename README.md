@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is designed to test the performance of various endpoints of the [Reqres.in](https://reqres.in) API using [K6](https://k6.io/), a popular open-source load testing tool. The tests cover user creation, updating, deletion, login, registration,retrieval etc features.
+This project is designed to test the performance of various endpoints of the [Reqres.in](https://reqres.in) API using [K6](https://k6.io/), a popular open-source load testing tool. The goal is to ensure that our APIs perform well under various levels of load, and to integrate these tests into a Continuous Integration (CI) pipeline using GitHub Actions. Test results are sent to Grafana Cloud for real-time analysis and visualization.
 
 ## Project Structure
 
