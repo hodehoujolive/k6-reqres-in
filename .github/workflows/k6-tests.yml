@@ -16,8 +16,8 @@ jobs:
         uses: grafana/setup-k6-action@v1
       - name: Run K6 Tests
         env:
-          K6_CLOUD_TOKEN: ${{ '3dcf968d04f85e8594cd778de0a40111d3d816893b4131f5e487cb09c119c6a1' }}
-          K6_CLOUD_PROJECT_ID: ${{ 3709056}}
+          K6_CLOUD_TOKEN: ${{ secrets.K6_CLOUD_TOKEN }}
+          K6_CLOUD_PROJECT_ID: ${{ secrets.K6_CLOUD_PROJECT_ID}}
         run: |
           k6 run --out cloud ./auth_tests.js
           k6 run --out cloud ./resource_tests.js
